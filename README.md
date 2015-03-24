@@ -5,7 +5,7 @@ bundle exec ruby parse-uas.rb <csv>
 ```
 
 ## csv format
-##### generated from sumologic using '_source = "HAProxy Logs" | extract "\{(?<agent>[^\"]+?)\}"  | count_frequent agent'
+`generated from sumologic using '_source = "HAProxy Logs" | extract "\{(?<agent>[^\"]+?)\}"  | count_frequent agent'`
 ```csv
 "agent","_approxcount"
 "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)","172699"
